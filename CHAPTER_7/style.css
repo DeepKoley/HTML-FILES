@@ -1,0 +1,111 @@
+body {
+  background-image: url("./images_files/Unsplasimage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: lightskyblue;
+  width: 600px;
+  padding: 50px;
+  margin: 50px auto;
+  border-top: 5px solid black;
+}
+
+.container h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* First Name and Last Name side by side */
+.name-box {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.name-box .input-name {
+  width: 48%;
+  position: relative;
+}
+
+.name-box .input-name input {
+  width: 100%;
+  padding: 8px 8px 8px 35px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.name-box .input-name i {
+  position: absolute;
+  font-size: 18px;
+  color: blue;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.input-name label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Other input fields */
+.input-name {
+  width: 90%;
+  position: relative;
+  margin: 10px auto;
+}
+
+.input-name input {
+  width: 100%;
+  padding: 8px 8px 8px 40px;
+  border: 1px solid #cccccc;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-name i {
+  position: absolute;
+  font-size: 20px;
+  color: blue;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.country {
+  display: inline-block;
+  width: 90%;
+  height: 35px;
+  padding: 5px 0 7px 10px;
+  cursor: pointer;
+  border: 1px solid #cccccc;
+  margin-left: 20px;
+}
+
+.radio-button {
+  margin-right: 4px;
+}
+
+.check-button {
+  margin-right: 8px;
+}
+
+.Submit-button {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+}

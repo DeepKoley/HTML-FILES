@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Information</title>
+    <style>
+      body {
+        background-image: url("./images/tecnoindia.jpg");
+        background-size: 100% 800px; /* Fixed size */
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      h2 {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .student-table {
+        width: 600px;
+        margin: auto; /* Center the table */
+        border-collapse: collapse;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+
+      .student-table th,
+      .student-table td {
+        border: 5px solid black;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+
+      .images {
+        text-align: center;
+        margin-bottom: 3px;
+      }
+
+      .images img {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Student Information Table</h2>
+
+    <div class="images">
+      <img src="images/deep.jpg" />
+      <img src="images/aritri.jpg" />
+      <img src="images/debdyuti.jpg" />
+      <img src="images/sreejita.jpg" />
+    </div>
+
+    <!-- Student Table -->
+    <table class="student-table" cellspacing="10" cellpadding="6">
+      <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Section</th>
+        <th>Marks</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Riya patari</td>
+        <td>10</td>
+        <td>A</td>
+        <td>89</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Deep Koley</td>
+        <td>2nd year</td>
+        <td>Alpha</td>
+        <td>39</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Aritri Bose</td>
+        <td>2nd year</td>
+        <td>Alpha</td>
+        <td>26</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Debdyuti Dutta</td>
+        <td>2nd year</td>
+        <td>Alpha</td>
+        <td>39</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Sreejita Karmakar</td>
+        <td>10</td>
+        <td>C</td>
+        <td>90</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Amitendu Bikash</td>
+        <td>10</td>
+        <td>A</td>
+        <td>90</td>
+      </tr>
+      <tfoot>
+        <tr>
+          <td colspan="5">Final Result - All Passed ✔️</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
