@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  background: lightskyblue;
+  background: white;
   width: 600px;
   padding: 50px;
   margin: 50px auto;
@@ -22,11 +22,10 @@ body {
   padding: 20px;
 }
 
-/* First Name and Last Name side by side */
 .name-box {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 40%;
   margin: 10px auto;
 }
 
@@ -94,11 +93,18 @@ body {
 }
 
 .radio-button {
-  margin-right: 4px;
+  margin-right: 7px;
+}
+.checkbox-container {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
 }
 
 .check-button {
   margin-right: 8px;
+  position: static; /* important: reset absolute */
 }
 
 .Submit-button {
